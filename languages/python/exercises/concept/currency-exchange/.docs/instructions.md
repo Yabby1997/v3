@@ -89,12 +89,12 @@ Create the `unexchangeable_value()` function, with parameter `budget`, `exchange
 
 This function should return the unexchangeable value considering the `budget`, `exchange_rate`, `spread`, & `denomination`.
 
-**Note:** If `1 EUR` == `1.20 USD` and the spread is `10%`, the _actual exchange rate_ becomes `1 EUR` == `1.32 USD`.
+**Note:** Returned value should be `int` type.
 
 ```python
 >>> unexchangeable_value(127.25, 1.20, 10, 20)
-16.40151515151517
+16
 >>> unexchangeable_value(127.25, 1.20, 10, 5)
-1.40151515151517
+1
 ```
 
