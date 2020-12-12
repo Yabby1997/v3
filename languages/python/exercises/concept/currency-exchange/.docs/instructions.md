@@ -97,4 +97,3 @@ This function should return the unexchangeable value considering the `budget`, `
 >>> unexchangeable_value(127.25, 1.20, 10, 5)
 1
 ```
-
