@@ -26,3 +26,4 @@ def unexchangeable_value(budget, exchange_rate, spread, denomination):
 	actual_rate = exchange_rate + exchange_fee
 	unexchangeable_amount = int((budget / actual_rate) % denomination)
 	return unexchangeable_amount
+
