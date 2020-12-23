@@ -10,7 +10,7 @@ There are three different kinds of built-in numbers in Python : `ints`, `floats`
 
 `floats` are numbers containing a decimal point. e.g. `0.0`,`3.14`,`-9.01`. Floats in Python are of [_arbitrary precision_][arbitrary-precision].
 
-You can see more detail the following resources:
+You can see more details in the following resources:
 
 - [Python numeric type documentation][numeric-type-docs]
 - [Documentation for `int()` built in][`int()` built in]
@@ -23,24 +23,24 @@ Python fully supports arithmetic between `ints` and `floats`. It will convert na
 Python considers `ints` narrower than `floats`. So, using a float in an expression ensures the result will be a float too. However, when doing division, the result will always be a float, even if only integers are used.
 
 ```python
-#the int is widened to a float here, and a float is returned
+# The int is widened to a float here, and a float type is returned.
 >>> 3 + 4.0
 7.0
 >>> 3 * 4.0
 12.0
 >>> 3 - 2.0
 1.0
-#division always returns a float
+# Division always returns a float.
 >>> 6 / 2
 3.0
 >>> 7 / 4
 1.75
-#calculating remainders
+# Calculating remainders.
 >>> 7 % 4
 3
 >>> 2 % 4
 2
->>> 12.75 & 3
+>>> 12.75 % 3
 0.75
 ```
 
