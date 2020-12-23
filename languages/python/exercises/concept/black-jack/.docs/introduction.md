@@ -1,6 +1,6 @@
 ## Comparison
 
-There are number of different kinds of comparison operator in Python
+There are number of different kinds of comparison operators in Python
 
 | Operator | Operation                | Description                                              |
 | -------- | ------------------------ | -------------------------------------------------------- |
